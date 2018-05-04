@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFCC80"
+    tools:context=".MainActivity">
+
+
+   <TextView
+       android:id="@+id/cityText"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Zaporizhzhya, Ukraine"
+       android:layout_centerHorizontal="true"
+       android:textColor="#546E7A"
+       android:textSize="18sp"
+       android:textStyle="bold"
+       />
+
+   <ImageView
+       android:id="@+id/thumbnaiicon"
+       android:layout_below="@id/cityText"
+       android:layout_marginTop="10dp"
+       android:background="#fff"
+       android:layout_width="100dp"
+       android:layout_height="100dp" />
+   <TextView
+       android:id="@+id/tempText"
+       android:text="12 Deg"
+       android:textStyle="normal"
+       android:textColor="#fff"
+      android:layout_below="@id/cityText"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="25dp"
+       android:textSize="42sp"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" />
+   <TextView
+       android:id="@+id/windText"
+       android:textStyle="normal"
+       android:text="Wind"
+       android:textColor="#fff"
+       android:layout_below="@id/thumbnaiicon"
+       android:layout_marginTop="35dp"
+       android:textSize="16sp"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" />
+
+   <TextView
+    android:id="@+id/cloudText"
+    android:text="Cloud"
+    android:textSize="16sp"
+    android:textColor="#fff"
+    android:layout_below="@id/windText"
+    android:layout_marginTop="5dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+   <TextView
+       android:id="@+id/pressuredText"
+       android:text="Pressure"
+       android:textSize="16sp"
+       android:textColor="#fff"
+       android:layout_below="@id/cloudText"
+       android:layout_marginTop="5dp"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" />
+   <TextView
+       android:id="@+id/humidText"
+       android:text="Humidity"
+       android:textSize="16sp"
+       android:textColor="#fff"
+       android:layout_below="@id/pressuredText"
+       android:layout_marginTop="5dp"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" />
+   <TextView
+       android:id="@+id/sunriseText"
+       android:text="Sunrise"
+       android:textSize="16sp"
+       android:textColor="#fff"
+       android:layout_below="@id/humidText"
+       android:layout_marginTop="5dp"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" />
+   <TextView
+       android:id="@+id/setText"
+       android:text="Sunset"
+       android:textSize="16sp"
+       android:textColor="#fff"
+       android:layout_below="@id/sunriseText"
+       android:layout_marginTop="5dp"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" />
+   <TextView
+       android:id="@+id/updateText"
+       android:text="Last Updated"
+       android:layout_marginTop="5dp"
+       android:layout_below="@id/setText"
+       android:textColor="#fff"
+       android:textSize="26sp"
+       android:layout_centerHorizontal="true"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content" />
+
+</RelativeLayout>
